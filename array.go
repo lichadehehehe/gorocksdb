@@ -6,7 +6,6 @@ import (
 	"unsafe"
 )
 
-type = false
 type charsSlice []*C.char
 type sizeTSlice []C.size_t
 type columnFamilySlice []*C.rocksdb_column_family_handle_t
